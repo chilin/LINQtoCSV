@@ -1,49 +1,16 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
+
   <PropertyGroup>
-    <TargetFramework>net5.0</TargetFramework>
-    <RootNamespace>LINQtoCSV</RootNamespace>
-    <PackageId>LINQtoCSVCore</PackageId>
-    <Title>LINQtoCSVCore</Title>
-    <Version>1.5.0</Version>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <Version>1.6.0</Version>
     <Authors>Ivo Chi</Authors>
-    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <PackageTags>CSV,LINQ</PackageTags>
-    <Description>
-      Popular, easy to use library to read and write CSV and tab delimited files. Supports data fields containing commas and line breaks. Supports different character encodings, separator characters and date and number formats. Robust error handling lets you quickly fix problems in large input files. This is net 5.0 version
-    </Description>
-    <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+    <PackageId>LINQtoCSVCore</PackageId>
+    <Description>Popular, easy to use library to read and write CSV and tab delimited files. Supports data fields containing commas and line breaks. Supports different character encodings, separator characters and date and number formats. Robust error handling lets you quickly fix problems in large input files. This is net 6.0 version</Description>
     <PackageProjectUrl>https://github.com/chilin/LINQtoCSV</PackageProjectUrl>
+    <PackageTags>CSV,LINQ</PackageTags>
+    <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
   </PropertyGroup>
-  <ItemGroup>
-    <Reference Update="System.Core">
-      <RequiredTargetFramework>3.5</RequiredTargetFramework>
-    </Reference>
-    <Reference Update="System.Xml.Linq">
-      <RequiredTargetFramework>3.5</RequiredTargetFramework>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
-      <Visible>False</Visible>
-      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
-      <Install>false</Install>
-    </BootstrapperPackage>
-    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
-      <Visible>False</Visible>
-      <ProductName>.NET Framework 3.5 SP1</ProductName>
-      <Install>true</Install>
-    </BootstrapperPackage>
-    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
-      <Visible>False</Visible>
-      <ProductName>Windows Installer 3.1</ProductName>
-      <Install>true</Install>
-    </BootstrapperPackage>
-  </ItemGroup>
-  <ItemGroup>
-    <PackageReference Include="System.Data.DataSetExtensions" Version="4.5.0" />
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Remove="CsvInputFormatAttribute.cs" />
-    <Compile Remove="CsvOutputFormatAttribute.cs" />
-  </ItemGroup>
+
 </Project>

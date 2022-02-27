@@ -1,6 +1,7 @@
 # LINQtoCSV
 
-This library makes it easy to use CSV files with LINQ queries. Its features include:
+This library was forked from https://github.com/mperdeck/LINQtoCSV, I have upgrade it to .net 6.
+It makes it easy to use CSV files with LINQ queries. Its features include:
 
 * Follows the most common rules for CSV files. Correctly handles data fields that contain commas and line breaks.
 * In addition to comma, most delimiting characters can be used, including tab for tab delimited fields.
@@ -24,7 +25,7 @@ http://www.codeproject.com/Articles/25133/LINQ-to-CSV-library
 All contributions are welcome, whether those are new features or bug fixes.
 
 Before you invest time in your feature or bug fix, please first raise the issue in the issues list to get feedback about your idea:
-https://github.com/mperdeck/LINQtoCSV/issues
+https://github.com/chilin/LINQtoCSV
 
 For bugs, show how the bug can be reproduced.
 For features, show why it would be useful to the wider community.
